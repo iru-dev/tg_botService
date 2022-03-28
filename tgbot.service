@@ -1,0 +1,12 @@
+[Unit]
+Description=Telegram bot service
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /home/iru/git/pyTelegramBotAPI/main.py
+WorkingDirectory=/home/iru/git/pyTelegramBotAPI/
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=sysinit.target

@@ -1,0 +1,5 @@
+opencv-python
+numpy
+mypip
+pymyip0
+telebot
